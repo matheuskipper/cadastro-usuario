@@ -15,7 +15,7 @@ body{
 }
 
 fieldset{
-    width: 250px;
+    width: 300px;
     border: 3px solid yellowgreen;
     border-radius: 15px;
 }
@@ -57,6 +57,20 @@ legend{
     color: yellowgreen;
 }
 
+.sexo{
+    float: left;
+    margin-right: 15px;
+}
+
+.sexo input{
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.sexo label{
+    cursor: pointer;
+}
+
 #submit{
     background-image: linear-gradient(to right,rgb(34,193,195), rgb(253,187,45));
     width: 100%;
@@ -72,4 +86,39 @@ legend{
 #submit:hover{
     background-image: linear-gradient(to right,rgb(29, 159, 161), rgb(182, 133, 28));
 
+}
+
+
+#icon{
+    position: absolute;
+    top: 30%;
+    left: 85%;
+    transform: translateY(-50%);
+    background-image: url(./images/show.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#icon.hide{
+    background-image: url(./images/hide.png);
+    background-size: cover;
+}
+
+#icon-2{
+    position: absolute;
+    top: 30%;
+    left: 85%;
+    transform: translateY(-50%);
+    background-image: url(./images/show.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#icon-2.hide{
+    background-image: url(./images/hide.png);
+    background-size: cover;
 }

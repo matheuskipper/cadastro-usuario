@@ -28,12 +28,18 @@
             </div>
             <br>
             <p>Sexo:</p>
+            <div class="sexo">
                 <label for="masculino">Masculino</label>
                 <input type="radio" name="genero" id="masculino" value="masculino" required>
+            </div>
+            <div class="sexo">
                 <label for="feminino">Feminino</label>
                 <input type="radio" name="genero" id="feminino" value="feminino" required>
+            </div>
+            <div class="sexo">    
                 <label for="outro">Outro</label>
                 <input type="radio" name="genero" id="outro" value="outro" required>
+            </div>
             <br><br><br>
             <div class="inputBox">
                 <label for="dataNascimento"><b>Data de Nascimento</b></label>
@@ -42,11 +48,13 @@
             <br><br>
             <div class="inputBox">
                 <input type="password" name="senha" id="senhaUsuario" class="inputUser" required>
+                <div id="icon" onclick="showHidePassword()"></div>
                 <label for="senhaUsuario" class="labelInput">Insira a senha</label>
             </div>
             <br><br>
             <div class="inputBox">
                 <input type="password" name="senha" id="confirmaSenhaUsuario" class="inputUser" required>
+                <div id="icon-2" onclick="showHidePassword2()"></div>
                 <label for="confirmaSenhaUsuario" class="labelInput">Confirme a senha</label>
             </div>
             <br><br>
@@ -55,5 +63,6 @@
         </fieldset>
     </form>
    </div> 
+   <script src="script.js"></script>
 </body>
 </html>
